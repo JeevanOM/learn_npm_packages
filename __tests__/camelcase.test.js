@@ -1,5 +1,5 @@
-import createCamelCase from '../src/utils/camelcase.js';
+import createCamelCase from '../src/utils/camelcase';
 
 test('camel case', () => {
-  expect(createCamelCase('jagat jeevan sahoo')).toEqual('Jagat Jeevan Sahoo');
+  expect(createCamelCase('jagat jeevan sahoo')).toEqual('jagatJeevanSahoo');
 });
