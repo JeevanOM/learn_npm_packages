@@ -12,6 +12,7 @@
 ## Links
 
 - https://docs.npmjs.com/creating-a-package-json-file
+- npm link : https://docs.npmjs.com/cli/v8/commands/npm-link
 
 ## TODOs
 
