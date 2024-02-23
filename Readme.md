@@ -9,6 +9,21 @@
   - Coverage is being recorded. Since it is a part of CI/CD pipeline, not included in the git. Also pre-commit hooks would also be integrated, so the coverage folder is not included in the package.
 - `npm login` to login to your npm profile. Once you login. `npm publish`. This would create a package in your profile. Now you could login to your npmjs.com and check under profile section to see if the package is published.
 - Once done with the publishing of the package. do `npm logout` to safely logout of the npm system.
+- Test your package
+
+```
+package.json
+npm i learn_npm_packages
+
+index.js
+import pkg from "learn_npm_packages";
+const { assignment } = pkg;
+
+const params = { a: 2, b: 4 };
+const result = assignment(params, "plus");
+console.log(result.value);
+
+```
 
 **Note** : The `type: "module"` in package.json
 
@@ -18,6 +33,8 @@
 
 - Prettier : auto formatting
 - es6 : Modern way of writing JS code.
+- Test using Jest
+- Test Coverage
 
 ## Links
 
@@ -32,3 +49,4 @@
 - Automate your semantic versioning on push of any commit
 - Explore private repository.
 - .npmrc and other repository
+- Licenses
