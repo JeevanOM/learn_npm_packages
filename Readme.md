@@ -11,6 +11,9 @@
 
 **Note** : The `type: "module"` in package.json
 
+## How to use the module
+
+
 ## Good practices
 
 - Prettier : auto formatting
