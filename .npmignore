@@ -1,7 +1,9 @@
-test
 node_modules
 # Editor files
 .vscode
 
 # Linters
 .prettierrc.json
+coverage
+__tests__
+jest.config.js
