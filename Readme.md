@@ -40,9 +40,13 @@ console.log(result.value);
 
 - https://docs.npmjs.com/creating-a-package-json-file
 - npm link : https://docs.npmjs.com/cli/v8/commands/npm-link
+- Setting Up Eslint in JS Project - https://hariomsinha.notion.site/Setting-up-Eslint-in-JS-Project-fc1b2e10a1b34bb8be95692125b5abb4?pvs=4
 
 ## TODOs
 
+- setting up Eslint [done]
+- setting up prettier
+- setting up custom linting ( if required )
 - pre-commit hooks
 - publishing to npm
 - Create a CI/CD pipeline
